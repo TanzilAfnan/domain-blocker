@@ -1,0 +1,26 @@
+{
+  "name": "domain-blocker",
+  "version": "0.0.1",
+  "description": "Block any domain from windows or mac devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanzilAfnan/domain-blocker.git"
+  },
+  "keywords": [
+    "Domain-blocker",
+    "productive"
+  ],
+  "author": "Md Tanzil Afnan <tanzil.afn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TanzilAfnan/domain-blocker/issues"
+  },
+  "homepage": "https://github.com/TanzilAfnan/domain-blocker#readme",
+  "dependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
