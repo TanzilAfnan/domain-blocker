@@ -1,10 +1,16 @@
 const fs = require ('fs');
+const config = require('./config');
 
-const checkPlatform = ()=>{
-    console.log(process.platform);
-    return process.platform;
+const GetHostsPath = ()=>{
+    // console.log(config);
+    return config.hostFile[process.platform];
+    // return process.platform;
 }
 
+const blocker = () =>{
+
+};
+
 module.exports = {
-    checkPlatform
+    GetHostsPath
 };
