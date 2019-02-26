@@ -5,6 +5,7 @@ module.exports = {
         'linux' : "/etc/hosts"
     },
     "domain" : [
-        "www.facebook.com"
+        "www.facebook.com",
+        "www.youtube.com"
     ]
 };

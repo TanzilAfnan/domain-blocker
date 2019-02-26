@@ -25,7 +25,7 @@ const block = (cb) =>{
         domains.forEach(domain => {
             if(fileContents.indexOf(domains) < 0){
                 console.log("website Is Not Present In The Array !");
-                let newLine = "\n127.0.0.1" + "\t" + domains;
+                let newLine = "\n127.0.0.1" + "\t" + domain;
                 fs.appendFile(hostFile, newLine, (err) => {
                     if(err){
                         console.log("Error While appending line :");
